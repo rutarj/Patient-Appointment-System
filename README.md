@@ -1,40 +1,40 @@
-# Patient-Appointment-System
-This system allows veterinary clinic staff to manage pet information, schedule and track appointments, and maintain appointment history using C language
+# Patient Appointment System
 
-Basic Patient Appointment System for Veterinary Clinic
-This C-based system helps veterinary clinic staff efficiently manage patient (pet) details, schedule appointments, and maintain appointment history. Designed with three milestones, the system evolves in complexity while remaining user-friendly.
+**Patient Appointment System** is a veterinary clinic management tool developed in C that allows staff to efficiently manage pet information, schedule appointments, and track appointment histories. The system is built in three milestones, evolving in complexity while maintaining simplicity for ease of use.
 
-Milestone 1: Patient Contact Information Management
-The first milestone focuses on storing and managing essential pet and owner details:
+## Basic Patient Appointment System for Veterinary Clinic
 
-Owner Information: Name, contact number, and address.
-Pet Information: Pet’s name, type (dog, cat, etc.), breed, age, and medical history.
-Using structures and arrays, users can add, view, and update pet and owner details seamlessly.
+This C-based system enables veterinary clinic staff to manage patient (pet) details, schedule appointments, and maintain an appointment history. The system evolves in three milestones:
 
-Milestone 2: Appointment Scheduling
-The second milestone introduces an intuitive appointment scheduling system, where clinic staff can:
+### Milestone 1: Patient Contact Information Management
+The first milestone focuses on managing essential pet and owner information:
+- **Owner Information:** Name, contact number, and address
+- **Pet Information:** Pet’s name, type (dog, cat, etc.), breed, age, and medical history
 
-Set appointment details: date, time, and visit type (checkup, vaccination, etc.).
-Assign a veterinarian to each appointment.
-Track appointment status (pending, completed, canceled).
-The system stores appointment information and allows for easy scheduling and updates.
+Using structures and arrays, staff can **add**, **view**, and **update** pet and owner details with ease.
 
-Milestone 3: Appointment Management & History
-The final milestone adds comprehensive appointment management and history tracking:
+### Milestone 2: Appointment Scheduling
+The second milestone introduces an intuitive scheduling system, where clinic staff can:
+- **Set Appointment Details:** Date, time, and visit type (checkup, vaccination, etc.)
+- **Assign Veterinarian:** Each appointment is assigned a veterinarian.
+- **Track Appointment Status:** Status options include pending, completed, or canceled.
 
-View Upcoming Appointments: Clinic staff can easily access upcoming appointments.
-Track Appointment History: Review past appointments and services rendered.
-Search: Quickly find appointments by pet name, owner name, or date.
-This stage includes added features like data validation, error handling, and file storage for patient and appointment data.
+This milestone allows easy scheduling and updating of appointments.
 
-Key Features:
-Contact Management: Store and retrieve pet and owner details effortlessly.
-Scheduling System: Intuitive interface to schedule and manage appointments.
-Appointment History: View past appointments and track pet health progress.
-Data Persistence: Safely store patient and appointment data using file handling.
-Appointment Scheduling: Intuitive scheduling system with easy-to-view time slots and veterinarian assignments.
-Appointment History: Organized history of all appointments, making it easy to track the health progress of pets over time.
-Data Storage: Persistence of patient and appointment data using file handling.
+### Milestone 3: Appointment Management & History
+The final milestone adds comprehensive appointment management:
+- **View Upcoming Appointments:** Easy access to upcoming appointments for efficient planning.
+- **Track Appointment History:** Staff can review past appointments and services provided.
+- **Search Appointments:** Quickly find appointments by pet name, owner name, or date.
 
+Additional features include **data validation**, **error handling**, and **file storage** for persistent patient and appointment data.
 
+## Key Features
 
+- **Contact Management:** Effortlessly store and retrieve pet and owner details.
+- **Scheduling System:** A user-friendly interface to schedule and manage appointments.
+- **Appointment History:** View past appointments to track pet health progress.
+- **Data Persistence:** Safely store patient and appointment data using file handling.
+- **Appointment Scheduling:** An intuitive scheduling system with easily-viewed time slots and veterinarian assignments.
+- **Appointment History:** Organized history of all appointments to track pets’ health progress over time.
+- **Data Storage:** Persistent storage of patient and appointment data through file handling.
