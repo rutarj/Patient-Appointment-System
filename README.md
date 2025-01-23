@@ -38,30 +38,3 @@ Data Storage: Persistence of patient and appointment data using file handling.
 
 
 
-
-#include <stdio.h>
-#include "clinic.h"
-
-#define MAX_PETS 20
-#define MAX_APPOINTMENTS 50
-
-int main(void)
-{
-    struct Patient pets[MAX_PETS] = { {0} };
-    struct Appointment appoints[MAX_APPOINTMENTS] = { {0} };
-    struct ClinicData data = { pets, MAX_PETS, appoints, MAX_APPOINTMENTS };
-
-    // Import patient and appointment records
-    int patientCount = importPatients("patientData.txt", pets, MAX_PETS);
-    int appointmentCount = importAppointments("appointmentData.txt", appoints, MAX_APPOINTMENTS);
-
-    // Output imported records
-    printf("Imported %d patient records...\n", patientCount);
-    printf("Imported %d appointment records...\n\n", appointmentCount);
-
-    // Show main menu for further actions
-    menuMain(&data);
-    
-    return 0;
-}
-
